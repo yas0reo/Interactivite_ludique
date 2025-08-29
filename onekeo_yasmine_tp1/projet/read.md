@@ -1,1 +1,1 @@
-le projet godot
+la racine du projet godot
