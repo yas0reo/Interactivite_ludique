@@ -1,0 +1,315 @@
+[gd_scene load_steps=41 format=3 uid="uid://csjoru8n8xs7o"]
+
+[ext_resource type="Script" uid="uid://dt75jury0b6m7" path="res://node_2d.gd" id="1_q5dlx"]
+[ext_resource type="Texture2D" uid="uid://ct0a4kpnr7uu1" path="res://assets/images/kenney_1-bit-platformer-pack/Tiles/Default/tile_0197.png" id="2_c4wnb"]
+[ext_resource type="Texture2D" uid="uid://cvai3yttrksv4" path="res://assets/images/kenney_1-bit-platformer-pack/Tiles/Default/tile_0195.png" id="3_7plk7"]
+[ext_resource type="Texture2D" uid="uid://cahohhxoeexil" path="res://assets/images/kenney_1-bit-platformer-pack/Tiles/Default/tile_0235.png" id="4_fbwgr"]
+[ext_resource type="Texture2D" uid="uid://bhr12fob2rtjq" path="res://assets/images/kenney_1-bit-platformer-pack/Tiles/Default/tile_0236.png" id="5_7mj2a"]
+[ext_resource type="Texture2D" uid="uid://nq0q8b87okic" path="res://assets/images/kenney_1-bit-platformer-pack/Tiles/Default/tile_0217.png" id="6_fshgd"]
+[ext_resource type="Texture2D" uid="uid://b1ymmruhqbpm" path="res://assets/images/kenney_1-bit-platformer-pack/Tiles/Default/tile_0196.png" id="7_lbrxf"]
+[ext_resource type="Texture2D" uid="uid://c5gr3hcj7wene" path="res://assets/images/kenney_1-bit-platformer-pack/Tiles/Default/tile_0310.png" id="8_xjt7e"]
+[ext_resource type="Texture2D" uid="uid://dupvpppvbn87r" path="res://assets/images/kenney_1-bit-platformer-pack/Tiles/Default/tile_0313.png" id="9_0xo8l"]
+[ext_resource type="Texture2D" uid="uid://dpa80itmro3d4" path="res://assets/images/kenney_1-bit-platformer-pack/Tiles/Default/tile_0311.png" id="10_xfyss"]
+[ext_resource type="Texture2D" uid="uid://d3icg0ntiqnlq" path="res://assets/images/kenney_1-bit-platformer-pack/Tiles/Default/tile_0309.png" id="11_3ngjr"]
+[ext_resource type="Texture2D" uid="uid://dwmyuioonko5k" path="res://assets/images/kenney_1-bit-platformer-pack/Tiles/Default/tile_0312.png" id="12_qilgh"]
+[ext_resource type="Texture2D" uid="uid://50ggggkbl10u" path="res://assets/images/kenney_1-bit-platformer-pack/Tiles/Default/tile_0332.png" id="13_4qosj"]
+[ext_resource type="Texture2D" uid="uid://cqjbistju1kij" path="res://assets/images/kenney_1-bit-platformer-pack/Tiles/Default/tile_0331.png" id="14_cjlbh"]
+[ext_resource type="Texture2D" uid="uid://lo228i6ayhu5" path="res://assets/images/kenney_1-bit-platformer-pack/Tiles/Default/tile_0330.png" id="15_kfelt"]
+[ext_resource type="Texture2D" uid="uid://b4y1uhtqt41b7" path="res://assets/images/kenney_1-bit-platformer-pack/Tiles/Default/tile_0333.png" id="16_ytlpd"]
+[ext_resource type="Texture2D" uid="uid://bd67o3yilp7x7" path="res://assets/images/kenney_1-bit-platformer-pack/Tiles/Default/tile_0338.png" id="17_2v765"]
+[ext_resource type="Texture2D" uid="uid://bhy6e0e4vgs6f" path="res://assets/images/kenney_1-bit-platformer-pack/Tiles/Default/tile_0339.png" id="18_b8fb0"]
+[ext_resource type="Texture2D" uid="uid://7a7nycmrh6vv" path="res://assets/images/kenney_1-bit-platformer-pack/Tiles/Default/tile_0385.png" id="19_ma08v"]
+[ext_resource type="Texture2D" uid="uid://d3vjftj617ise" path="res://assets/images/kenney_1-bit-platformer-pack/Tiles/Default/tile_0316.png" id="20_s32dh"]
+[ext_resource type="Texture2D" uid="uid://b5x4am1iddg4e" path="res://assets/images/kenney_1-bit-platformer-pack/Tiles/Default/tile_0306.png" id="21_037st"]
+[ext_resource type="Texture2D" uid="uid://hg8b84vorbmm" path="res://assets/images/kenney_1-bit-platformer-pack/Tiles/Default/tile_0299.png" id="22_6orn5"]
+[ext_resource type="Texture2D" uid="uid://dx48yrrr7lgub" path="res://assets/images/kenney_1-bit-platformer-pack/Tiles/Default/tile_0279.png" id="23_whnp6"]
+[ext_resource type="Texture2D" uid="uid://3i283gjol20y" path="res://assets/images/kenney_1-bit-platformer-pack/Tiles/Default/tile_0239.png" id="24_22e24"]
+[ext_resource type="Texture2D" uid="uid://culk1sy2lf3lu" path="res://assets/images/kenney_1-bit-platformer-pack/Tiles/Default/tile_0242.png" id="25_m7xe6"]
+[ext_resource type="Texture2D" uid="uid://bijvm1ychvo80" path="res://assets/images/kenney_1-bit-platformer-pack/Tiles/Default/tile_0216.png" id="26_wqmsq"]
+[ext_resource type="Texture2D" uid="uid://yjij6qg1x20q" path="res://assets/images/kenney_1-bit-platformer-pack/Tiles/Default/tile_0209.png" id="27_fkgk1"]
+[ext_resource type="Texture2D" uid="uid://ddelj6ayolt01" path="res://assets/images/kenney_1-bit-platformer-pack/Tiles/Default/tile_0186.png" id="28_qgxp6"]
+[ext_resource type="Texture2D" uid="uid://b6310ogintt0" path="res://assets/images/kenney_1-bit-platformer-pack/Tiles/Default/tile_0131.png" id="29_akb8o"]
+[ext_resource type="Texture2D" uid="uid://c1647ibmbfbup" path="res://assets/images/kenney_1-bit-platformer-pack/Tiles/Default/tile_0134.png" id="30_t3mf0"]
+[ext_resource type="Texture2D" uid="uid://bqyn0vrc88ut8" path="res://assets/images/kenney_1-bit-platformer-pack/Tiles/Default/tile_0140.png" id="31_kejda"]
+[ext_resource type="Texture2D" uid="uid://b23eiu6mwuypy" path="res://assets/images/kenney_1-bit-platformer-pack/Tiles/Default/tile_0142.png" id="32_uqk8q"]
+[ext_resource type="Texture2D" uid="uid://bpm3tsacgfd17" path="res://assets/images/kenney_1-bit-platformer-pack/Tiles/Default/tile_0260.png" id="33_6uidu"]
+[ext_resource type="Texture2D" uid="uid://chev1uqpj77dr" path="res://assets/images/kenney_1-bit-platformer-pack/Tiles/Default/tile_0265.png" id="34_qu7as"]
+[ext_resource type="Texture2D" uid="uid://be4jl25ydrqs0" path="res://assets/images/kenney_1-bit-platformer-pack/Tiles/Default/tile_0261.png" id="35_lyuya"]
+[ext_resource type="Texture2D" uid="uid://bpva63aglhpws" path="res://assets/images/kenney_1-bit-platformer-pack/Tiles/Default/tile_0262.png" id="36_5fipt"]
+[ext_resource type="Texture2D" uid="uid://divekjnj6nvhb" path="res://assets/images/kenney_1-bit-platformer-pack/Tiles/Default/tile_0263.png" id="37_j02gt"]
+[ext_resource type="Texture2D" uid="uid://cuk7i83rc8gte" path="res://assets/images/kenney_1-bit-platformer-pack/Tiles/Default/tile_0264.png" id="38_thyvg"]
+[ext_resource type="AudioStream" uid="uid://6c3cdtbxupag" path="res://assets/audio/VerryCuteAndNice.wav" id="39_c4wnb"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_nsnm2"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("33_6uidu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34_qu7as")
+}],
+"loop": true,
+"name": &"happyHappyHappy",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("35_lyuya")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36_5fipt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("37_j02gt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("38_thyvg")
+}],
+"loop": true,
+"name": &"walkRight",
+"speed": 5.0
+}]
+
+[node name="Node2D" type="Node2D"]
+script = ExtResource("1_q5dlx")
+
+[node name="background" type="Sprite2D" parent="."]
+position = Vector2(1087, 63)
+scale = Vector2(8.20312, 8.20312)
+texture = ExtResource("2_c4wnb")
+
+[node name="Tile0131" type="Sprite2D" parent="background"]
+position = Vector2(-94.0191, 18.8038)
+scale = Vector2(1.24571, 1.01714)
+texture = ExtResource("29_akb8o")
+
+[node name="Tile0132" type="Sprite2D" parent="background/Tile0131"]
+position = Vector2(-12.1103, -7.99998)
+scale = Vector2(0.721715, 0.322098)
+texture = ExtResource("29_akb8o")
+
+[node name="Tile0133" type="Sprite2D" parent="background/Tile0131"]
+position = Vector2(28.1591, 15.5507)
+scale = Vector2(2.53824, 0.779028)
+texture = ExtResource("29_akb8o")
+
+[node name="Tile0134" type="Sprite2D" parent="background/Tile0131"]
+position = Vector2(44.0858, 29.9626)
+scale = Vector2(1.55658, 1.05244)
+texture = ExtResource("30_t3mf0")
+
+[node name="Tile0135" type="Sprite2D" parent="background/Tile0131"]
+position = Vector2(58.0063, 21.1236)
+scale = Vector2(1.25382, 0.426968)
+texture = ExtResource("29_akb8o")
+
+[node name="Tile0136" type="Sprite2D" parent="background/Tile0131"]
+position = Vector2(43.4253, 0.719072)
+scale = Vector2(0.629972, 1.08989)
+texture = ExtResource("29_akb8o")
+
+[node name="Tile0140" type="Sprite2D" parent="background/Tile0131"]
+position = Vector2(53.407, -2.06737)
+scale = Vector2(0.629972, 0.719104)
+texture = ExtResource("31_kejda")
+
+[node name="Tile0142" type="Sprite2D" parent="background/Tile0131"]
+position = Vector2(63.7311, -2.18721)
+scale = Vector2(0.672786, 0.719104)
+texture = ExtResource("32_uqk8q")
+
+[node name="Tile0186" type="Sprite2D" parent="background/Tile0131"]
+position = Vector2(-13.5287, 0.988754)
+scale = Vector2(0.703367, 0.861426)
+texture = ExtResource("28_qgxp6")
+
+[node name="Tile0195" type="Sprite2D" parent="background/Tile0131"]
+position = Vector2(-24.6365, -18.2472)
+scale = Vector2(0.752296, 0.921351)
+texture = ExtResource("3_7plk7")
+
+[node name="Tile0196" type="Sprite2D" parent="background/Tile0131"]
+position = Vector2(-12.5012, -18.1274)
+scale = Vector2(0.782877, 0.943823)
+texture = ExtResource("7_lbrxf")
+
+[node name="Tile0209" type="Sprite2D" parent="background"]
+position = Vector2(-92.7695, 32.5181)
+scale = Vector2(1.09714, 1.01714)
+texture = ExtResource("27_fkgk1")
+
+[node name="Tile0216" type="Sprite2D" parent="background/Tile0209"]
+position = Vector2(34.3334, -12.4045)
+scale = Vector2(1.13889, 1.10487)
+texture = ExtResource("26_wqmsq")
+
+[node name="Tile0217" type="Sprite2D" parent="background/Tile0209"]
+position = Vector2(84.3891, -16.9888)
+scale = Vector2(0.895836, 0.898879)
+texture = ExtResource("6_fshgd")
+
+[node name="Tile0235" type="Sprite2D" parent="background/Tile0209"]
+position = Vector2(-29.0004, 31.0713)
+scale = Vector2(0.878475, 0.947569)
+texture = ExtResource("4_fbwgr")
+
+[node name="Tile0236" type="Sprite2D" parent="background/Tile0209"]
+position = Vector2(-14.778, 30.9514)
+scale = Vector2(0.90278, 0.973785)
+texture = ExtResource("5_7mj2a")
+
+[node name="Tile0238" type="Sprite2D" parent="background/Tile0209"]
+position = Vector2(-0.277813, 30.9514)
+scale = Vector2(0.92361, 0.973785)
+texture = ExtResource("5_7mj2a")
+
+[node name="Tile0239" type="Sprite2D" parent="background/Tile0209"]
+position = Vector2(-29.0004, 16.3296)
+scale = Vector2(0.875002, 0.91386)
+texture = ExtResource("24_22e24")
+
+[node name="Tile0242" type="Sprite2D" parent="background/Tile0209"]
+position = Vector2(-15.1671, 16.3296)
+scale = Vector2(0.937501, 0.883898)
+texture = ExtResource("25_m7xe6")
+
+[node name="Tile0279" type="Sprite2D" parent="background/Tile0209"]
+position = Vector2(83.8335, 14.5918)
+scale = Vector2(1.02084, 1.29589)
+texture = ExtResource("23_whnp6")
+
+[node name="Tile0299" type="Sprite2D" parent="background/Tile0209"]
+position = Vector2(84.0558, 31.4308)
+scale = Vector2(1.00695, 0.823972)
+texture = ExtResource("22_6orn5")
+
+[node name="Tile0306" type="Sprite2D" parent="background"]
+position = Vector2(-16.8229, 50.4686)
+scale = Vector2(0.899048, 0.899048)
+texture = ExtResource("21_037st")
+
+[node name="Tile0309" type="Sprite2D" parent="background/Tile0306"]
+position = Vector2(-64.5931, -55.1017)
+scale = Vector2(1.24788, 1.19703)
+texture = ExtResource("11_3ngjr")
+
+[node name="Tile0310" type="Sprite2D" parent="background/Tile0306"]
+position = Vector2(-84.4745, -54.5085)
+scale = Vector2(1.27966, 1.27966)
+texture = ExtResource("8_xjt7e")
+
+[node name="Tile0311" type="Sprite2D" parent="background/Tile0306"]
+position = Vector2(-44.2033, -54.6441)
+scale = Vector2(1.31356, 1.31356)
+texture = ExtResource("10_xfyss")
+
+[node name="Tile0313" type="Sprite2D" parent="background/Tile0306"]
+position = Vector2(-64.1355, -35.2543)
+scale = Vector2(1.33051, 1.33051)
+texture = ExtResource("9_0xo8l")
+
+[node name="Tile0312" type="Sprite2D" parent="background/Tile0306"]
+position = Vector2(-1.22029, -54.5424)
+scale = Vector2(1.38135, 1.30084)
+texture = ExtResource("12_qilgh")
+
+[node name="Tile0314" type="Sprite2D" parent="background/Tile0306"]
+position = Vector2(-23.0508, -54.4407)
+scale = Vector2(1.35593, 1.2966)
+texture = ExtResource("10_xfyss")
+
+[node name="Tile0316" type="Sprite2D" parent="background/Tile0306"]
+position = Vector2(-48.5084, 15.2881)
+scale = Vector2(1.26695, 1.04661)
+texture = ExtResource("20_s32dh")
+
+[node name="Tile0330" type="Sprite2D" parent="background/Tile0306"]
+position = Vector2(-10.7457, -23.2203)
+scale = Vector2(0.995762, 0.978813)
+texture = ExtResource("15_kfelt")
+
+[node name="Tile0331" type="Sprite2D" parent="background/Tile0306"]
+position = Vector2(4.7458, -23.1864)
+scale = Vector2(0.98305, 0.98305)
+texture = ExtResource("14_cjlbh")
+
+[node name="Tile0332" type="Sprite2D" parent="background/Tile0306"]
+position = Vector2(20.0678, -23.0508)
+scale = Vector2(0.983051, 0.983051)
+texture = ExtResource("13_4qosj")
+
+[node name="Tile0333" type="Sprite2D" parent="background/Tile0306"]
+position = Vector2(-119.729, -17.6272)
+scale = Vector2(1.05085, 1.05085)
+texture = ExtResource("14_cjlbh")
+
+[node name="Tile0334" type="Sprite2D" parent="background/Tile0306"]
+position = Vector2(-50.305, -1.93226)
+scale = Vector2(1.05932, 1.12288)
+texture = ExtResource("16_ytlpd")
+
+[node name="Tile0335" type="Sprite2D" parent="background/Tile0306"]
+position = Vector2(-85.2542, -2.20344)
+scale = Vector2(1.08898, 1.08898)
+texture = ExtResource("16_ytlpd")
+
+[node name="Tile0336" type="Sprite2D" parent="background/Tile0306"]
+position = Vector2(-102.712, -17.7627)
+scale = Vector2(1.07627, 1.0339)
+texture = ExtResource("13_4qosj")
+
+[node name="Tile0337" type="Sprite2D" parent="background/Tile0306"]
+position = Vector2(-30.5084, 14.9152)
+scale = Vector2(0.966102, 0.940677)
+texture = ExtResource("15_kfelt")
+
+[node name="Tile0338" type="Sprite2D" parent="background/Tile0306"]
+position = Vector2(-67.2881, 15.4237)
+scale = Vector2(1.07203, 1.07203)
+texture = ExtResource("17_2v765")
+
+[node name="Tile0339" type="Sprite2D" parent="background/Tile0306"]
+position = Vector2(-119.593, -36.7797)
+scale = Vector2(1.12711, 1.34322)
+texture = ExtResource("18_b8fb0")
+
+[node name="Tile0340" type="Sprite2D" parent="background/Tile0306"]
+position = Vector2(-14.9811, 15.1186)
+scale = Vector2(0.966102, 0.940677)
+texture = ExtResource("15_kfelt")
+
+[node name="Tile0341" type="Sprite2D" parent="background/Tile0306"]
+position = Vector2(0.479828, 15.1864)
+scale = Vector2(0.9918, 0.940677)
+texture = ExtResource("13_4qosj")
+
+[node name="Tile0342" type="Sprite2D" parent="background/Tile0306"]
+position = Vector2(-15.2193, 15.1186)
+scale = Vector2(0.995877, 0.940677)
+texture = ExtResource("14_cjlbh")
+
+[node name="Tile0385" type="Sprite2D" parent="background/Tile0306"]
+position = Vector2(-67.6271, -1.93226)
+scale = Vector2(1.13135, 1.13135)
+texture = ExtResource("19_ma08v")
+
+[node name="ButtonInstructions" type="Button" parent="."]
+offset_left = 597.0
+offset_top = 55.0
+offset_right = 922.0
+offset_bottom = 109.0
+text = "click sur w et d pour voir les animations
+et click sur la barre d'espace pour le son"
+
+[node name="bonhommeSauter" type="AnimatedSprite2D" parent="."]
+position = Vector2(727, 465)
+scale = Vector2(8.65625, 8.65625)
+sprite_frames = SubResource("SpriteFrames_nsnm2")
+animation = &"happyHappyHappy"
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("39_c4wnb")
+
+[node name="AudioStreamPlayer2D2" type="AudioStreamPlayer2D" parent="."]
+visible = false
