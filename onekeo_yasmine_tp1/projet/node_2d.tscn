@@ -1,43 +1,43 @@
 [gd_scene load_steps=41 format=3 uid="uid://csjoru8n8xs7o"]
 
 [ext_resource type="Script" uid="uid://dt75jury0b6m7" path="res://node_2d.gd" id="1_q5dlx"]
-[ext_resource type="Texture2D" uid="uid://ct0a4kpnr7uu1" path="res://assets/images/kenney_1-bit-platformer-pack/Tiles/Default/tile_0197.png" id="2_c4wnb"]
-[ext_resource type="Texture2D" uid="uid://cvai3yttrksv4" path="res://assets/images/kenney_1-bit-platformer-pack/Tiles/Default/tile_0195.png" id="3_7plk7"]
-[ext_resource type="Texture2D" uid="uid://cahohhxoeexil" path="res://assets/images/kenney_1-bit-platformer-pack/Tiles/Default/tile_0235.png" id="4_fbwgr"]
-[ext_resource type="Texture2D" uid="uid://bhr12fob2rtjq" path="res://assets/images/kenney_1-bit-platformer-pack/Tiles/Default/tile_0236.png" id="5_7mj2a"]
-[ext_resource type="Texture2D" uid="uid://nq0q8b87okic" path="res://assets/images/kenney_1-bit-platformer-pack/Tiles/Default/tile_0217.png" id="6_fshgd"]
-[ext_resource type="Texture2D" uid="uid://b1ymmruhqbpm" path="res://assets/images/kenney_1-bit-platformer-pack/Tiles/Default/tile_0196.png" id="7_lbrxf"]
-[ext_resource type="Texture2D" uid="uid://c5gr3hcj7wene" path="res://assets/images/kenney_1-bit-platformer-pack/Tiles/Default/tile_0310.png" id="8_xjt7e"]
-[ext_resource type="Texture2D" uid="uid://dupvpppvbn87r" path="res://assets/images/kenney_1-bit-platformer-pack/Tiles/Default/tile_0313.png" id="9_0xo8l"]
-[ext_resource type="Texture2D" uid="uid://dpa80itmro3d4" path="res://assets/images/kenney_1-bit-platformer-pack/Tiles/Default/tile_0311.png" id="10_xfyss"]
-[ext_resource type="Texture2D" uid="uid://d3icg0ntiqnlq" path="res://assets/images/kenney_1-bit-platformer-pack/Tiles/Default/tile_0309.png" id="11_3ngjr"]
-[ext_resource type="Texture2D" uid="uid://dwmyuioonko5k" path="res://assets/images/kenney_1-bit-platformer-pack/Tiles/Default/tile_0312.png" id="12_qilgh"]
-[ext_resource type="Texture2D" uid="uid://50ggggkbl10u" path="res://assets/images/kenney_1-bit-platformer-pack/Tiles/Default/tile_0332.png" id="13_4qosj"]
-[ext_resource type="Texture2D" uid="uid://cqjbistju1kij" path="res://assets/images/kenney_1-bit-platformer-pack/Tiles/Default/tile_0331.png" id="14_cjlbh"]
-[ext_resource type="Texture2D" uid="uid://lo228i6ayhu5" path="res://assets/images/kenney_1-bit-platformer-pack/Tiles/Default/tile_0330.png" id="15_kfelt"]
-[ext_resource type="Texture2D" uid="uid://b4y1uhtqt41b7" path="res://assets/images/kenney_1-bit-platformer-pack/Tiles/Default/tile_0333.png" id="16_ytlpd"]
-[ext_resource type="Texture2D" uid="uid://bd67o3yilp7x7" path="res://assets/images/kenney_1-bit-platformer-pack/Tiles/Default/tile_0338.png" id="17_2v765"]
-[ext_resource type="Texture2D" uid="uid://bhy6e0e4vgs6f" path="res://assets/images/kenney_1-bit-platformer-pack/Tiles/Default/tile_0339.png" id="18_b8fb0"]
-[ext_resource type="Texture2D" uid="uid://7a7nycmrh6vv" path="res://assets/images/kenney_1-bit-platformer-pack/Tiles/Default/tile_0385.png" id="19_ma08v"]
-[ext_resource type="Texture2D" uid="uid://d3vjftj617ise" path="res://assets/images/kenney_1-bit-platformer-pack/Tiles/Default/tile_0316.png" id="20_s32dh"]
-[ext_resource type="Texture2D" uid="uid://b5x4am1iddg4e" path="res://assets/images/kenney_1-bit-platformer-pack/Tiles/Default/tile_0306.png" id="21_037st"]
-[ext_resource type="Texture2D" uid="uid://hg8b84vorbmm" path="res://assets/images/kenney_1-bit-platformer-pack/Tiles/Default/tile_0299.png" id="22_6orn5"]
-[ext_resource type="Texture2D" uid="uid://dx48yrrr7lgub" path="res://assets/images/kenney_1-bit-platformer-pack/Tiles/Default/tile_0279.png" id="23_whnp6"]
-[ext_resource type="Texture2D" uid="uid://3i283gjol20y" path="res://assets/images/kenney_1-bit-platformer-pack/Tiles/Default/tile_0239.png" id="24_22e24"]
-[ext_resource type="Texture2D" uid="uid://culk1sy2lf3lu" path="res://assets/images/kenney_1-bit-platformer-pack/Tiles/Default/tile_0242.png" id="25_m7xe6"]
-[ext_resource type="Texture2D" uid="uid://bijvm1ychvo80" path="res://assets/images/kenney_1-bit-platformer-pack/Tiles/Default/tile_0216.png" id="26_wqmsq"]
-[ext_resource type="Texture2D" uid="uid://yjij6qg1x20q" path="res://assets/images/kenney_1-bit-platformer-pack/Tiles/Default/tile_0209.png" id="27_fkgk1"]
-[ext_resource type="Texture2D" uid="uid://ddelj6ayolt01" path="res://assets/images/kenney_1-bit-platformer-pack/Tiles/Default/tile_0186.png" id="28_qgxp6"]
-[ext_resource type="Texture2D" uid="uid://b6310ogintt0" path="res://assets/images/kenney_1-bit-platformer-pack/Tiles/Default/tile_0131.png" id="29_akb8o"]
-[ext_resource type="Texture2D" uid="uid://c1647ibmbfbup" path="res://assets/images/kenney_1-bit-platformer-pack/Tiles/Default/tile_0134.png" id="30_t3mf0"]
-[ext_resource type="Texture2D" uid="uid://bqyn0vrc88ut8" path="res://assets/images/kenney_1-bit-platformer-pack/Tiles/Default/tile_0140.png" id="31_kejda"]
-[ext_resource type="Texture2D" uid="uid://b23eiu6mwuypy" path="res://assets/images/kenney_1-bit-platformer-pack/Tiles/Default/tile_0142.png" id="32_uqk8q"]
-[ext_resource type="Texture2D" uid="uid://bpm3tsacgfd17" path="res://assets/images/kenney_1-bit-platformer-pack/Tiles/Default/tile_0260.png" id="33_6uidu"]
-[ext_resource type="Texture2D" uid="uid://chev1uqpj77dr" path="res://assets/images/kenney_1-bit-platformer-pack/Tiles/Default/tile_0265.png" id="34_qu7as"]
-[ext_resource type="Texture2D" uid="uid://be4jl25ydrqs0" path="res://assets/images/kenney_1-bit-platformer-pack/Tiles/Default/tile_0261.png" id="35_lyuya"]
-[ext_resource type="Texture2D" uid="uid://bpva63aglhpws" path="res://assets/images/kenney_1-bit-platformer-pack/Tiles/Default/tile_0262.png" id="36_5fipt"]
-[ext_resource type="Texture2D" uid="uid://divekjnj6nvhb" path="res://assets/images/kenney_1-bit-platformer-pack/Tiles/Default/tile_0263.png" id="37_j02gt"]
-[ext_resource type="Texture2D" uid="uid://cuk7i83rc8gte" path="res://assets/images/kenney_1-bit-platformer-pack/Tiles/Default/tile_0264.png" id="38_thyvg"]
+[ext_resource type="Texture2D" uid="uid://ct0a4kpnr7uu1" path="res://assets/images/kenney_1-bit-platformer-pack/Tiles/100s/tile_0197.png" id="2_c4wnb"]
+[ext_resource type="Texture2D" uid="uid://cvai3yttrksv4" path="res://assets/images/kenney_1-bit-platformer-pack/Tiles/100s/tile_0195.png" id="3_7plk7"]
+[ext_resource type="Texture2D" uid="uid://cahohhxoeexil" path="res://assets/images/kenney_1-bit-platformer-pack/Tiles/200s/tile_0235.png" id="4_fbwgr"]
+[ext_resource type="Texture2D" uid="uid://bhr12fob2rtjq" path="res://assets/images/kenney_1-bit-platformer-pack/Tiles/200s/tile_0236.png" id="5_7mj2a"]
+[ext_resource type="Texture2D" uid="uid://nq0q8b87okic" path="res://assets/images/kenney_1-bit-platformer-pack/Tiles/200s/tile_0217.png" id="6_fshgd"]
+[ext_resource type="Texture2D" uid="uid://b1ymmruhqbpm" path="res://assets/images/kenney_1-bit-platformer-pack/Tiles/100s/tile_0196.png" id="7_lbrxf"]
+[ext_resource type="Texture2D" uid="uid://c5gr3hcj7wene" path="res://assets/images/kenney_1-bit-platformer-pack/Tiles/300s/tile_0310.png" id="8_xjt7e"]
+[ext_resource type="Texture2D" uid="uid://dupvpppvbn87r" path="res://assets/images/kenney_1-bit-platformer-pack/Tiles/300s/tile_0313.png" id="9_0xo8l"]
+[ext_resource type="Texture2D" uid="uid://dpa80itmro3d4" path="res://assets/images/kenney_1-bit-platformer-pack/Tiles/300s/tile_0311.png" id="10_xfyss"]
+[ext_resource type="Texture2D" uid="uid://d3icg0ntiqnlq" path="res://assets/images/kenney_1-bit-platformer-pack/Tiles/300s/tile_0309.png" id="11_3ngjr"]
+[ext_resource type="Texture2D" uid="uid://dwmyuioonko5k" path="res://assets/images/kenney_1-bit-platformer-pack/Tiles/300s/tile_0312.png" id="12_qilgh"]
+[ext_resource type="Texture2D" uid="uid://50ggggkbl10u" path="res://assets/images/kenney_1-bit-platformer-pack/Tiles/300s/tile_0332.png" id="13_4qosj"]
+[ext_resource type="Texture2D" uid="uid://cqjbistju1kij" path="res://assets/images/kenney_1-bit-platformer-pack/Tiles/300s/tile_0331.png" id="14_cjlbh"]
+[ext_resource type="Texture2D" uid="uid://lo228i6ayhu5" path="res://assets/images/kenney_1-bit-platformer-pack/Tiles/300s/tile_0330.png" id="15_kfelt"]
+[ext_resource type="Texture2D" uid="uid://b4y1uhtqt41b7" path="res://assets/images/kenney_1-bit-platformer-pack/Tiles/300s/tile_0333.png" id="16_ytlpd"]
+[ext_resource type="Texture2D" uid="uid://bd67o3yilp7x7" path="res://assets/images/kenney_1-bit-platformer-pack/Tiles/300s/tile_0338.png" id="17_2v765"]
+[ext_resource type="Texture2D" uid="uid://bhy6e0e4vgs6f" path="res://assets/images/kenney_1-bit-platformer-pack/Tiles/300s/tile_0339.png" id="18_b8fb0"]
+[ext_resource type="Texture2D" uid="uid://7a7nycmrh6vv" path="res://assets/images/kenney_1-bit-platformer-pack/Tiles/300s/tile_0385.png" id="19_ma08v"]
+[ext_resource type="Texture2D" uid="uid://d3vjftj617ise" path="res://assets/images/kenney_1-bit-platformer-pack/Tiles/300s/tile_0316.png" id="20_s32dh"]
+[ext_resource type="Texture2D" uid="uid://b5x4am1iddg4e" path="res://assets/images/kenney_1-bit-platformer-pack/Tiles/300s/tile_0306.png" id="21_037st"]
+[ext_resource type="Texture2D" uid="uid://hg8b84vorbmm" path="res://assets/images/kenney_1-bit-platformer-pack/Tiles/200s/tile_0299.png" id="22_6orn5"]
+[ext_resource type="Texture2D" uid="uid://dx48yrrr7lgub" path="res://assets/images/kenney_1-bit-platformer-pack/Tiles/200s/tile_0279.png" id="23_whnp6"]
+[ext_resource type="Texture2D" uid="uid://3i283gjol20y" path="res://assets/images/kenney_1-bit-platformer-pack/Tiles/200s/tile_0239.png" id="24_22e24"]
+[ext_resource type="Texture2D" uid="uid://culk1sy2lf3lu" path="res://assets/images/kenney_1-bit-platformer-pack/Tiles/200s/tile_0242.png" id="25_m7xe6"]
+[ext_resource type="Texture2D" uid="uid://bijvm1ychvo80" path="res://assets/images/kenney_1-bit-platformer-pack/Tiles/200s/tile_0216.png" id="26_wqmsq"]
+[ext_resource type="Texture2D" uid="uid://yjij6qg1x20q" path="res://assets/images/kenney_1-bit-platformer-pack/Tiles/200s/tile_0209.png" id="27_fkgk1"]
+[ext_resource type="Texture2D" uid="uid://ddelj6ayolt01" path="res://assets/images/kenney_1-bit-platformer-pack/Tiles/100s/tile_0186.png" id="28_qgxp6"]
+[ext_resource type="Texture2D" uid="uid://b6310ogintt0" path="res://assets/images/kenney_1-bit-platformer-pack/Tiles/100s/tile_0131.png" id="29_akb8o"]
+[ext_resource type="Texture2D" uid="uid://c1647ibmbfbup" path="res://assets/images/kenney_1-bit-platformer-pack/Tiles/100s/tile_0134.png" id="30_t3mf0"]
+[ext_resource type="Texture2D" uid="uid://bqyn0vrc88ut8" path="res://assets/images/kenney_1-bit-platformer-pack/Tiles/100s/tile_0140.png" id="31_kejda"]
+[ext_resource type="Texture2D" uid="uid://b23eiu6mwuypy" path="res://assets/images/kenney_1-bit-platformer-pack/Tiles/100s/tile_0142.png" id="32_uqk8q"]
+[ext_resource type="Texture2D" uid="uid://bpm3tsacgfd17" path="res://assets/images/kenney_1-bit-platformer-pack/Tiles/200s/tile_0260.png" id="33_6uidu"]
+[ext_resource type="Texture2D" uid="uid://chev1uqpj77dr" path="res://assets/images/kenney_1-bit-platformer-pack/Tiles/200s/tile_0265.png" id="34_qu7as"]
+[ext_resource type="Texture2D" uid="uid://be4jl25ydrqs0" path="res://assets/images/kenney_1-bit-platformer-pack/Tiles/200s/tile_0261.png" id="35_lyuya"]
+[ext_resource type="Texture2D" uid="uid://bpva63aglhpws" path="res://assets/images/kenney_1-bit-platformer-pack/Tiles/200s/tile_0262.png" id="36_5fipt"]
+[ext_resource type="Texture2D" uid="uid://divekjnj6nvhb" path="res://assets/images/kenney_1-bit-platformer-pack/Tiles/200s/tile_0263.png" id="37_j02gt"]
+[ext_resource type="Texture2D" uid="uid://cuk7i83rc8gte" path="res://assets/images/kenney_1-bit-platformer-pack/Tiles/200s/tile_0264.png" id="38_thyvg"]
 [ext_resource type="AudioStream" uid="uid://6c3cdtbxupag" path="res://assets/audio/VerryCuteAndNice.wav" id="39_c4wnb"]
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_nsnm2"]
@@ -51,6 +51,14 @@ animations = [{
 }],
 "loop": true,
 "name": &"happyHappyHappy",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("33_6uidu")
+}],
+"loop": true,
+"name": &"stop",
 "speed": 5.0
 }, {
 "frames": [{
@@ -135,7 +143,7 @@ scale = Vector2(0.782877, 0.943823)
 texture = ExtResource("7_lbrxf")
 
 [node name="Tile0209" type="Sprite2D" parent="background"]
-position = Vector2(-92.7695, 32.5181)
+position = Vector2(-92.7696, 32.5486)
 scale = Vector2(1.09714, 1.01714)
 texture = ExtResource("27_fkgk1")
 
@@ -295,10 +303,10 @@ scale = Vector2(1.13135, 1.13135)
 texture = ExtResource("19_ma08v")
 
 [node name="ButtonInstructions" type="Button" parent="."]
-offset_left = 597.0
-offset_top = 55.0
-offset_right = 922.0
-offset_bottom = 109.0
+offset_left = 607.0
+offset_top = 41.0
+offset_right = 932.0
+offset_bottom = 95.0
 text = "click sur w et d pour voir les animations
 et click sur la barre d'espace pour le son"
 
@@ -306,10 +314,21 @@ et click sur la barre d'espace pour le son"
 position = Vector2(727, 465)
 scale = Vector2(8.65625, 8.65625)
 sprite_frames = SubResource("SpriteFrames_nsnm2")
-animation = &"happyHappyHappy"
+animation = &"stop"
 
 [node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="."]
 stream = ExtResource("39_c4wnb")
 
-[node name="AudioStreamPlayer2D2" type="AudioStreamPlayer2D" parent="."]
-visible = false
+[node name="ButtonUp" type="Button" parent="."]
+offset_left = 800.0
+offset_top = 375.0
+offset_right = 858.0
+offset_bottom = 433.0
+text = "button saut"
+
+[node name="ButtonRight" type="Button" parent="."]
+offset_left = 801.0
+offset_top = 432.0
+offset_right = 913.0
+offset_bottom = 488.0
+text = "button droite"
